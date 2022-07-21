@@ -1,0 +1,11 @@
+INFO 14:28:41  当前执行的appium相关配置为：{'platformName': 'Android', 'platformVersion': '8.1.0', 'deviceName': '98899a355358495654', 'udid': '98899a355358495654', 'systemPort': 8201, 'app': 'D:\\Users\\Mika\\PycharmProjects\\py_appauto\\data\\apk\\jumei.apk', 'clearSystemFiles': True, 'appActivity': 'com.jm.android.jumei.home.activity.StartActivity', 'appPackage': 'com.jm.android.jumei', 'automationName': 'UIAutomator2', 'noSign': True, 'recreateChromeDriverSessions': True, 'unicodeKeyboard': True, 'noReset': True, 'fullReset': False, 'newCommandTimeout': 300} 
+
+INFO 14:28:52  ————————————————————————执行用例 ----------——————————————
+INFO 14:28:52  [点击]  页面【特卖首页】的元素【搜索输入框】 
+
+INFO 14:28:55  在【分类列表搜索页】页面 对元素【搜索输入框】输入文本【口红】 
+
+INFO 14:28:56  [点击]  页面【分类列表搜索页】的元素【搜索按钮】
+INFO 14:28:57  sleep等待 1 s  
+
+INFO 14:28:58  ————————————————————————该用例执行结束 ----------——————————————

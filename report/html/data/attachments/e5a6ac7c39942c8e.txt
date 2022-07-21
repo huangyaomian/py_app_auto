@@ -1,0 +1,17 @@
+INFO 16:50:59  当前执行的appium相关配置为：{'platformName': 'Android', 'platformVersion': '8.1.0', 'deviceName': '98899a355358495654', 'udid': '98899a355358495654', 'systemPort': 8201, 'clearSystemFiles': True, 'appActivity': 'com.qooapp.qoohelper.arch.welcome.WelcomeActivity', 'appPackage': 'com.qooapp.qoohelper.testfairy', 'automationName': 'UIAutomator2', 'noSign': True, 'recreateChromeDriverSessions': True, 'unicodeKeyboard': True, 'noReset': True, 'newCommandTimeout': 300, 'autoGrantPermissions': True} 
+
+INFO 16:51:11  ————————————————————————执行用例 ----------——————————————
+INFO 16:51:11  [点击]  页面【特卖首页】的元素【進入搜索頁按鈕】 
+
+INFO 16:51:23  在【分类列表搜索页】页面 对元素【搜索输入框】输入文本【mika】 
+
+INFO 16:51:26  [点击]  页面【分类列表搜索页】的元素【搜索按钮】 
+
+INFO 16:51:29  [点击]  页面【搜索后列表页】的元素【商品项标题】 
+
+INFO 16:51:34  [查找] 文本 mika  
+
+INFO 16:51:34  sleep等待 1 s
+INFO 16:51:35  sleep等待 1 s  
+
+INFO 16:51:38  ————————————————————————该用例执行结束 ----------——————————————

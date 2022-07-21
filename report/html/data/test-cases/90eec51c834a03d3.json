@@ -1,0 +1,276 @@
+{
+  "uid" : "90eec51c834a03d3",
+  "name" : "test_case1",
+  "fullName" : "tests.test_vedio.test_videorelease.Test_videorelease#test_case1",
+  "historyId" : "61d0ec5868142760393bb75a0ddaae70",
+  "time" : {
+    "start" : 1546843185735,
+    "stop" : 1546843342535,
+    "duration" : 156800
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "action",
+    "time" : {
+      "start" : 1546843185733,
+      "stop" : 1546843185733,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "suitinit",
+    "time" : {
+      "start" : 1546843185733,
+      "stop" : 1546843185733,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "driverenv",
+    "time" : {
+      "start" : 1546843175425,
+      "stop" : 1546843185733,
+      "duration" : 10308
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "caserun",
+    "time" : {
+      "start" : 1546843185733,
+      "stop" : 1546843185734,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4a417df6460ea08c",
+      "name" : "上传后截图_14:40:26_.png",
+      "source" : "4a417df6460ea08c.png",
+      "type" : "image/png",
+      "size" : 1031954
+    }, {
+      "uid" : "5e09c1151b735c2a",
+      "name" : "上传后截图_14:40:53_.png",
+      "source" : "5e09c1151b735c2a.png",
+      "type" : "image/png",
+      "size" : 1028539
+    }, {
+      "uid" : "3f9a9c39cb4be6fb",
+      "name" : "上传后截图_14:41:21_.png",
+      "source" : "3f9a9c39cb4be6fb.png",
+      "type" : "image/png",
+      "size" : 1013554
+    }, {
+      "uid" : "a13fc31400134bde",
+      "name" : "上传后截图_14:41:50_.png",
+      "source" : "a13fc31400134bde.png",
+      "type" : "image/png",
+      "size" : 899482
+    }, {
+      "uid" : "22fcdb329c8bea6",
+      "name" : "上传后截图_14:42:22_.png",
+      "source" : "22fcdb329c8bea6.png",
+      "type" : "image/png",
+      "size" : 980627
+    }, {
+      "uid" : "fb30ba160ba71a09",
+      "name" : "log",
+      "source" : "fb30ba160ba71a09.txt",
+      "type" : "text/plain",
+      "size" : 4669
+    }, {
+      "uid" : "2d5abeaa945e9923",
+      "name" : "stdout",
+      "source" : "2d5abeaa945e9923.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "db35adb5ef5979e9",
+      "name" : "stderr",
+      "source" : "db35adb5ef5979e9.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8
+  },
+  "afterStages" : [ {
+    "name" : "action::0",
+    "time" : {
+      "start" : 1546843344195,
+      "stop" : 1546843344440,
+      "duration" : 245
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "caserun::0",
+    "time" : {
+      "start" : 1546843342536,
+      "stop" : 1546843344193,
+      "duration" : 1657
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "de6841dc40ceac48",
+      "name" : "用例结束前的截图_14:42:24_.png",
+      "source" : "de6841dc40ceac48.png",
+      "type" : "image/png",
+      "size" : 284897
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.test_vedio"
+  }, {
+    "name" : "suite",
+    "value" : "test_videorelease"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_videorelease"
+  }, {
+    "name" : "host",
+    "value" : "tangmaoheng-deMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "15614-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_vedio.test_videorelease"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "37767c32f8fdcae8",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'WebElement' object does not support indexing",
+      "time" : {
+        "start" : 1546843137419,
+        "stop" : 1546843146535,
+        "duration" : 9116
+      }
+    }, {
+      "uid" : "389c79db617878b4",
+      "status" : "broken",
+      "statusDetails" : "base.verify.NotFoundElementError",
+      "time" : {
+        "start" : 1546843021518,
+        "stop" : 1546843036235,
+        "duration" : 14717
+      }
+    }, {
+      "uid" : "4ef231990f41e815",
+      "status" : "broken",
+      "statusDetails" : "base.verify.NotFoundElementError",
+      "time" : {
+        "start" : 1546842463044,
+        "stop" : 1546842470808,
+        "duration" : 7764
+      }
+    }, {
+      "uid" : "7aecf0c2a6131de0",
+      "status" : "broken",
+      "statusDetails" : "base.verify.NotFoundElementError",
+      "time" : {
+        "start" : 1546833967879,
+        "stop" : 1546833975071,
+        "duration" : 7192
+      }
+    }, {
+      "uid" : "448674a6396958a9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: 'unicodeKeyboard' must be of type boolean",
+      "time" : { }
+    }, {
+      "uid" : "7d3e466cbaf480e5",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'Resolution' referenced before assignment",
+      "time" : { }
+    }, {
+      "uid" : "9c7427ed8ce9dc04",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not subscriptable",
+      "time" : { }
+    }, {
+      "uid" : "bf8bf9fb68716597",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: 'unicodeKeyboard' must be of type boolean",
+      "time" : { }
+    }, {
+      "uid" : "71cfeda9cdcd9dbf",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: 'unicodeKeyboard' must be of type boolean",
+      "time" : { }
+    }, {
+      "uid" : "ee6ca90bedbc0ccf",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: 'unicodeKeyboard' must be of type boolean",
+      "time" : { }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90eec51c834a03d3.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jul 21 16:53:39 CST 2022","Thu Jul 21 16:53:59 CST 2022","20349","tests.test_suit2","test_demo2","Test_demo","","","test_home",""
+"passed","Mon Jan 07 14:39:45 CST 2019","Mon Jan 07 14:42:22 CST 2019","156800","tests.test_vedio","test_videorelease","Test_videorelease","","","test_case1",""

@@ -1,0 +1,155 @@
+{
+  "uid" : "7db3cfa112fd01d7",
+  "name" : "test_home",
+  "fullName" : "tests.test_suit2.test_demo2.Test_demo#test_home",
+  "historyId" : "664876ab20be2b5ad5a0349406424ad4",
+  "time" : {
+    "start" : 1658385907510,
+    "stop" : 1658385913063,
+    "duration" : 5553
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'SearchListPage' object has no attribute '第一个商品项'",
+  "statusTrace" : "self = <test_suit2.test_demo2.Test_demo object at 0x0000018ED20FCC40>\naction = <base.action.ElementActions object at 0x0000018ED20FE380>\n\n    def test_home(self, action: ElementActions):\n    \n        # up.登录页.login(action,'13550234762','tmhrush2233')\n    \n        action.click(p.特卖首页.搜索输入框)\n    \n        # 因为调用action的大部分公用方法是返回self，所以可以一条语句执行多次不同方法\n        action.text(p.分类列表搜索页.搜索输入框, \"口红\") \\\n            .click(p.分类列表搜索页.搜索按钮)\n    \n>       action.click(p.搜索后列表页.第一个商品项)\nE       AttributeError: 'SearchListPage' object has no attribute '第一个商品项'\n\ntests\\test_suit2\\test_demo2.py:23: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "caserun",
+    "time" : {
+      "start" : 1658385907507,
+      "stop" : 1658385907507,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "action",
+    "time" : {
+      "start" : 1658385907506,
+      "stop" : 1658385907506,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "driverenv",
+    "time" : {
+      "start" : 1658385885148,
+      "stop" : 1658385907506,
+      "duration" : 22358
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'SearchListPage' object has no attribute '第一个商品项'",
+    "statusTrace" : "self = <test_suit2.test_demo2.Test_demo object at 0x0000018ED20FCC40>\naction = <base.action.ElementActions object at 0x0000018ED20FE380>\n\n    def test_home(self, action: ElementActions):\n    \n        # up.登录页.login(action,'13550234762','tmhrush2233')\n    \n        action.click(p.特卖首页.搜索输入框)\n    \n        # 因为调用action的大部分公用方法是返回self，所以可以一条语句执行多次不同方法\n        action.text(p.分类列表搜索页.搜索输入框, \"口红\") \\\n            .click(p.分类列表搜索页.搜索按钮)\n    \n>       action.click(p.搜索后列表页.第一个商品项)\nE       AttributeError: 'SearchListPage' object has no attribute '第一个商品项'\n\ntests\\test_suit2\\test_demo2.py:23: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e11585215b8daeab",
+      "name" : "log",
+      "source" : "e11585215b8daeab.txt",
+      "type" : "text/plain",
+      "size" : 1226
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "caserun::0",
+    "time" : {
+      "start" : 1658385913223,
+      "stop" : 1658385914812,
+      "duration" : 1589
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c766068ebe178a1",
+      "name" : "用例结束前的截图_14:45:14_.png",
+      "source" : "c766068ebe178a1.png",
+      "type" : "image/png",
+      "size" : 51842
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  }, {
+    "name" : "action::0",
+    "time" : {
+      "start" : 1658385914815,
+      "stop" : 1658385915309,
+      "duration" : 494
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.test_suit2"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo2"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_demo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-QR6KK6V"
+  }, {
+    "name" : "thread",
+    "value" : "19276-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_suit2.test_demo2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7db3cfa112fd01d7.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,9 @@
+# selenium==3.14.1
+selenium
+Appium-Python-Client
+PyYAML==6.0
+pytest
+allure-pytest
+flaky
+pytest-sugar
+jprops

@@ -1,0 +1,151 @@
+{
+  "uid" : "f972cbcc09a6657a",
+  "name" : "test_home",
+  "fullName" : "tests.test_suit2.test_demo2.Test_demo#test_home",
+  "historyId" : "664876ab20be2b5ad5a0349406424ad4",
+  "time" : {
+    "start" : 1658386734913,
+    "stop" : 1658386754981,
+    "duration" : 20068
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driverenv",
+    "time" : {
+      "start" : 1658386725742,
+      "stop" : 1658386734911,
+      "duration" : 9169
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "action",
+    "time" : {
+      "start" : 1658386734911,
+      "stop" : 1658386734911,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "caserun",
+    "time" : {
+      "start" : 1658386734911,
+      "stop" : 1658386734911,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f8b981616a6615a2",
+      "name" : "log",
+      "source" : "f8b981616a6615a2.txt",
+      "type" : "text/plain",
+      "size" : 1401
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "action::0",
+    "time" : {
+      "start" : 1658386756714,
+      "stop" : 1658386757213,
+      "duration" : 499
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "caserun::0",
+    "time" : {
+      "start" : 1658386754981,
+      "stop" : 1658386756713,
+      "duration" : 1732
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "576ec547b6b1d566",
+      "name" : "用例结束前的截图_14:59:16_.png",
+      "source" : "576ec547b6b1d566.png",
+      "type" : "image/png",
+      "size" : 340424
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.test_suit2"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo2"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_demo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-QR6KK6V"
+  }, {
+    "name" : "thread",
+    "value" : "16520-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_suit2.test_demo2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f972cbcc09a6657a.json",
+  "parameterValues" : [ ]
+}

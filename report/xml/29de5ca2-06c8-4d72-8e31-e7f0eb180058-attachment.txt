@@ -1,0 +1,11 @@
+INFO 19:23:50  当前执行的appium相关配置为：{'platformName': 'Android', 'platformVersion': '8.1.0', 'deviceName': '98899a355358495654', 'udid': '98899a355358495654', 'systemPort': 8201, 'app': 'D:\\Users\\Mika\\PycharmProjects\\py_appauto\\data\\apk\\jumei.apk', 'clearSystemFiles': True, 'appActivity': 'com.jm.android.jumei.home.activity.StartActivity', 'appPackage': 'com.jm.android.jumei', 'automationName': 'UIAutomator2', 'noSign': True, 'recreateChromeDriverSessions': True, 'unicodeKeyboard': True, 'noReset': True, 'fullReset': False, 'newCommandTimeout': 300} 
+
+INFO 19:24:01  ————————————————————————执行用例 ----------——————————————
+INFO 19:24:01  [点击]  页面【特卖首页】的元素【搜索输入框】 
+
+ERROR 19:24:09  【分类列表搜索页】页面中未能找到元素【搜索输入框】
+ locator: 
+ {'name': '搜索输入框', 'type': 'id', 'value': 'com.jm.android.jumei:id/search_input', 'dynamic': False, 'switch': None, 'page': '分类列表搜索页'}
+INFO 19:24:09  sleep等待 1 s  
+
+INFO 19:24:10  ————————————————————————该用例执行结束 ----------——————————————

@@ -1,0 +1,40 @@
+[ {
+  "values" : [ "data\\apk\\qooapp-v8.3.15-fairytest.apk" ],
+  "name" : "appium.app"
+}, {
+  "values" : [ "com.qooapp.qoohelper.arch.welcome.WelcomeActivity" ],
+  "name" : "appium.appActivity"
+}, {
+  "values" : [ "com.qooapp.qoohelper.testfairy" ],
+  "name" : "appium.appPackage"
+}, {
+  "values" : [ "1.22.2" ],
+  "name" : "appium.version"
+}, {
+  "values" : [ "http://localhost:4723/wd/hub" ],
+  "name" : "appium.host"
+}, {
+  "values" : [ "tests" ],
+  "name" : "path.tests"
+}, {
+  "values" : [ "report" ],
+  "name" : "path.report"
+}, {
+  "values" : [ "98899a355358495654" ],
+  "name" : "device1.deviceName"
+}, {
+  "values" : [ "Android" ],
+  "name" : "device1.platformName"
+}, {
+  "values" : [ "8.1.0" ],
+  "name" : "device1.platformVersion"
+}, {
+  "values" : [ "http://localhost:4723/wd/hub" ],
+  "name" : "device1.appiumserver"
+}, {
+  "values" : [ "8201" ],
+  "name" : "device1.systemPort"
+}, {
+  "values" : [ "android" ],
+  "name" : "platform.run"
+} ]
