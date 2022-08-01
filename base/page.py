@@ -31,7 +31,7 @@ class BasePage(metaclass=abc.ABCMeta):
     # 元素属性有：元素名、元素的定位方式、对应定位方式的值、是否是动态元素、出现该元素的前置操作（默认为空，填写page类的前置操作方法名）、元素的页面名
     def get_locator(self, elename, type, value, dynamic=False, switch=None, page=None):
 
-        if page == None:
+        if page is None:
             page = self.name
         locator = dict(name=elename, type=type, value=value, dynamic=dynamic, switch=switch, page=page)
 

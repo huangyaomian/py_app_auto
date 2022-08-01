@@ -530,8 +530,8 @@ class ElementActions:
 
         """
 
-        waittime_count = Waittime_count(msg='[查找] 页面【{}】该元素【{}】等待时间:'.format(locator.get("page"), locator.get("name")))
-        waittime_count.start()
+        wait_time_count = Waittime_count(msg='[查找] 页面【{}】该元素【{}】等待时间:'.format(locator.get("page"), locator.get("name")))
+        wait_time_count.start()
         try:
             if is_need_displayed:
                 WebDriverWait(self.driver, wait).until(
@@ -540,11 +540,11 @@ class ElementActions:
                 WebDriverWait(self.driver, wait).until(
                     lambda driver: self._get_element_by_type(driver, locator) is not None)
 
-            waittime_count.end()
+            wait_time_count.end()
             return self._get_element_by_type(self.driver, locator)
         except Exception as e:
 
-            if is_raise == True:
+            if is_raise:
                 log.error(
                     "【{}】页面中未能找到元素【{}】\n locator: \n {}".format(locator.get("page"), locator.get("name"), locator))
                 raise NotFoundElementError
